@@ -11,7 +11,7 @@ public class PersonTest {
 	@Test
 	public void test() {
 		Person p = new Person();
-		p.request();
+		p.request("http://server2:8080");
 		System.out.println("aaa");
 	}
 

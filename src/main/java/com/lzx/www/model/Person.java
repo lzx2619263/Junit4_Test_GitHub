@@ -28,9 +28,8 @@ public class Person {
 		this.age = age;
 	}
 	
-	public void request() {
+	public void request(String url) {
 		List<String> nextHostNames = new ArrayList<String>();
-		String url = "http://www.baidu.com";
 		try {
 			Document doc=Jsoup.connect(url).get();
 			System.out.println(doc);
