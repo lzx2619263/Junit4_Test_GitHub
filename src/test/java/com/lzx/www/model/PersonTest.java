@@ -10,7 +10,7 @@ public class PersonTest {
 	@Test
 	public void test() {
 		Person p = new Person();
-		p.request("http://10.21.67.33:8080");
+		p.request("http://10.25.122.138:8080");
 	}
 
 }
